@@ -1,0 +1,282 @@
+body {
+    background-color: #f7f7f7;
+}
+.width1280 {
+    width: 1280px;
+    margin: auto;
+}
+.header {
+    font-family: "Proxima Nova Semibold";
+    font-size: 10px;
+    color: #515151;
+}
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+.h-menu {
+    display: inline-block;
+    vertical-align: top;
+    margin: 13px 0 0 144px
+}
+.h-menu_item {
+    display: inline-block;
+    margin: 0 25px;
+    line-height: 3;
+    cursor: pointer;
+    position: relative;
+
+}
+.h-menu_item--carrers {
+    color: #ff5722;
+}
+.header_right {
+    display: inline-block;
+}
+.header_language {
+    width: 35px;
+    line-height: 35px;
+    border: 1px solid lightslategray;
+    display: inline-block;
+    text-align: center;
+    background: url(../image/svg/levels.svg) no-repeat bottom 8% right 8%;
+    transition: 1s;
+    cursor: pointer;
+}
+.header_language:hover {
+    background-color: #515151;
+    color: white;
+}
+.h-menu_item--carrers:before {
+    content:"";
+    height: 21px;
+    border-right: 1px solid lightslategray;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.social {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 35px;
+}
+.social_item {
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    background-color: #515151;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+.social_item--bacground-img1:hover, .social_item--bacground-img2:hover {
+    background-color: #ff5722;
+}
+.social_item--bacground-img1 {
+    background: url(../image/svg/facebook.svg) no-repeat center #515151;
+    background-size: 12px;
+    transition: 3s;
+    cursor: pointer;
+}
+.social_item--bacground-img2 {
+    background: url(../image/svg/instagram.svg) no-repeat center #515151;
+    background-size: 12px;
+    transition: 3s;
+    cursor: pointer;
+}
+.back-home {
+    font-family: "Proxima Nova Semibold";
+    font-size: 11px;
+    color: #515151;
+    margin-top: 100px;
+}
+.back-home_button {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    border: 1px solid lightslategray;
+    background: url(../image/svg/back.svg) no-repeat center;
+    background-size: 20px;
+    vertical-align: middle;
+}
+.back-home_title {
+    display: inline-block;
+    margin: 10px;
+}
+.page-title_img {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    background: url(../image/svg/book.svg) no-repeat center;
+
+}
+.page-title_text {
+    display: inline-block;
+    font-family: ProximaNovaBlack;
+    vertical-align: baseline;
+    font-size: 80px;
+}
+.page-title--color-lightgrey {
+    color: #b6b6b6;
+    position: relative;
+    right: 38px;
+    z-index: -1;
+}
+.page-title--color-darkgrey {
+    color: #515151;
+}
+.video-box {
+    height: 375px;
+}
+.play-button {
+    background: url(../image/svg/play-button.svg) no-repeat center;
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    bottom: 220px;
+    left: 590px;
+}
+.univ-info {
+    background-color: #fff;
+    padding-top: 50px;
+    height: 215px;
+}
+.univ-info_title {
+    font-family: "ProximaNovaBlack";
+    color: #515151;
+    font-size: 31px;
+    text-align: center;
+}
+.univ-info_tagline {
+    font-family: "Proxima Nova Light";
+    color: #b6b6b6;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 4;
+}
+.univ-info_tagline:before, .univ-info_tagline:after {
+    content: "";
+    height: 23px;
+    border-right: 1px solid #ff5722;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.univ-info_text {
+    font-family: "Proxima Nova Light";
+    color: #515151;
+    text-align: center;
+    width: 734px;
+    margin: 10px 268px;
+    font-size: 14px;
+}
+.slider {
+    background: url("../image/slider_photo_1.png") no-repeat left top,
+                url("../image/slider_photo_2.png") no-repeat right top #515151;
+}
+.slider_text-box {
+     height: 564px;
+     background: #515151;
+     color: white;
+ }
+.slider_title {
+    font-family: ProximaNovaBlack;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 9;
+    padding-top: 5%;
+}
+.slider_item {
+    display: inline-block;
+    width: 20%;
+    padding: 0 75px;
+    vertical-align: middle;
+    position: relative;
+}
+.item_title {
+     font-family: ProximaNovaBlack;
+     font-size: 20px;
+     text-transform: uppercase;
+     line-height: 3;
+     position: relative;
+}
+.item_title--before1:before {
+    content: "";
+    background: url("../image/logo/product.png") no-repeat center #515151;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    /*position: absolute;*/
+    /*top: 15px;*/
+    /*right: 271px;*/
+}
+.slider_item--after:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 1px;
+    height: 182px;
+    background: #c0c0c0;
+    top: 0;
+    right: 0;
+}
+.item_title--before2:before {
+    content: "";
+    background: url("../image/sales.png") no-repeat center #515151;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 271px;
+}
+.item_title--before3:before {
+    content: "";
+    background: url("../image/php.png") no-repeat center #515151;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 271px;
+}
+.item_text {
+    width: 219px;
+}
+.item_bottom-text {
+    line-height: 5;
+    text-transform: uppercase;
+    color: #ff5722;
+    font-size: 9px;
+}
+.social--hidden {
+    visibility: hidden;
+}
+.item-line {
+    height: 2px;
+    display: inline-block;
+    background-color: #ff5722;
+    width: 100%;
+    position: absolute;
+    transform: scale(0,1);
+    transition: .3s;
+}
+.h-menu_item:hover .item-line{
+    transform: scale(1,1);
+}
+.language_drop-item {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    border: 1px solid palevioletred;
+    display: none;
+    border-radius: 4px;
+    box-shadow: #515151 ;
+}
