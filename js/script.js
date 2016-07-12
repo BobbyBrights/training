@@ -70,13 +70,24 @@ var item = $(".h-menu_item"),
 //
 //console.log(invert({Moe: "Moses", Larry: "Louis", Curly: "Jerome"}));
 
-function extend(destination, source) {
-    for (var i = 1; i <= arguments.length; i++) {
-        for (var key in arguments[i]) {
-           destination[key] = arguments[i][key];
-        }
+//function extend(destination, source) {
+//    for (var i = 1; i <= arguments.length; i++) {
+//        for (var key in arguments[i]) {
+//           destination[key] = arguments[i][key];
+//        }
+//    }
+//    return destination;
+//}
+//
+//console.log(typeof extend({name: 'moe'}, {age: 50, sex: 'female', name: 'tvoe'}, {city: 'kherson'}));
+
+function isArguments(obj) {
+    if (obj === arguments) {
+        return true;
+    } else {
+        return false;
     }
-    return destination;
 }
 
-console.log(extend({name: 'moe'}, {age: 50, sex: 'female', name: 'tvoe'}, {city: 'kherson'}));
+console.log(isArguments(),
+    isArguments([1,2,3]);
