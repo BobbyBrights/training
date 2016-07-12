@@ -209,7 +209,7 @@ body {
 }
 .item_title--before1:before {
     content: "";
-    background: url("../image/logo/product.png") no-repeat center #515151;
+    background: url("../image/product.png") no-repeat center #515151;
     width: 20px;
     height: 20px;
     display: inline-block;
