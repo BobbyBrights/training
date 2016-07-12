@@ -79,8 +79,5 @@ var item = $(".h-menu_item"),
 //    return destination;
 //}
 //
-<<<<<<< .merge_file_a06088
-console.log(extend({name: 'moe'}, {age: 50, sex: 'female', name: 'tvoe'}, {city: 'kherson'}));
-=======
 //console.log(extend({name: 'moe'}, {age: 50, sex: 'female', name: 'tvoe'}, {city: 'kherson'}));
->>>>>>> .merge_file_a05532
+
