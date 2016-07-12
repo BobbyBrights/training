@@ -79,15 +79,4 @@ var item = $(".h-menu_item"),
 //    return destination;
 //}
 //
-//console.log(typeof extend({name: 'moe'}, {age: 50, sex: 'female', name: 'tvoe'}, {city: 'kherson'}));
-
-function isArguments(obj) {
-    if (obj === arguments) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
-console.log(isArguments(),
-    isArguments([1,2,3]);
+console.log(extend({name: 'moe'}, {age: 50, sex: 'female', name: 'tvoe'}, {city: 'kherson'}));
